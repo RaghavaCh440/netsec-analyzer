@@ -1,4 +1,12 @@
 # netsec-analyzer
+
+[![NPM Downloads](https://img.shields.io/npm/dw/netsec-analyzer)](https://www.npmjs.com/package/netsec-analyzer)
+[![Visit npm-stat for more stats](https://img.shields.io/badge/npm--stat-stats-blue)](https://npm-stat.com/charts.html?package=netsec-analyzer)
+
+A CLI tool to scan open ports, evaluate TLS configurations, and recommend Linux hardening practices.
+
+
+
 `netsec-analyzer` is a powerful command-line utility designed to assist DevOps engineers, cybersecurity professionals, and system administrators in identifying network vulnerabilities and improving server hardening practices. This tool offers rapid scanning of commonly used ports, audits TLS/SSL configurations for misconfigurations or weak ciphers, and provides actionable security recommendations for strengthening Linux-based server deployments.
 
 ## Key Features
