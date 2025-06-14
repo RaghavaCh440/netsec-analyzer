@@ -1,0 +1,35 @@
+{
+  "name": "netsec-analyzer",
+  "version": "1.0.0",
+  "description": "Network Security CLI: Scan ports, check TLS settings, and harden Linux systems",
+  "main": "lib/scanner.js",
+  "bin": {
+    "netsec-analyzer": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "keywords": [
+    "network",
+    "security",
+    "TLS",
+    "firewall",
+    "hardening",
+    "linux",
+    "shell",
+    "scanner",
+    "CLI"
+  ],
+  "author": "Raghava Chellu",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^6.3.1",
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
+
